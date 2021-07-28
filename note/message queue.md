@@ -5,7 +5,7 @@
 + 可重读
 + 严格顺序
 + 高吞吐量
-+ 基于流的消息传递![kafka](../image/kafka.png)
++ 基于日志的消息传递![kafka](../image/kafka.png)
 
 （2）rabbitMQ 以broker为中心，专注生产者与消费者之间的传递保证
 
