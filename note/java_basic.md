@@ -286,6 +286,10 @@ Integer[] arr=set.toArray(new Integer[0]);
     list=Arrays.stream(arr).boxed().collect(Collectors.toList());
     // List<Integer> list -> int[] arr
     arr=list.stream().mapToInt(integer::intvalue).toArray();
+    // filter string
+    String result = s.chars().filter(e -> {
+            return e >= 'a' && e <= 'z';
+        }).mapToObj(i -> "" + (char) i).collect(Collectors.joining());
    ```
  
    
